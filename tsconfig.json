@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2019",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./lib",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2020", "DOM"],
+    "resolveJsonModule": true,
+    "strict": true
+  },
+  "typedocOptions": {
+    "entryPoints": ["src/index.ts"],
+    "out": "docs"
+  },
+  "include": ["src/**/*"]
+}
